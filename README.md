@@ -22,8 +22,6 @@ In this repository,  contains Kubernetes manifests to deploy a MySQL StatefulSet
  
 2. **Then, Create cluster one for master or control plane and another for worker:**
  
-    Apply the MySQL manifest:
- 
     ```sh
     k3d cluster create bishnu --agents 2  # agents=2 means two worker node where our entire database and website hosted.
     kubectl get nodes # It will list out all of the created nodes.
