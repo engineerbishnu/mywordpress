@@ -43,4 +43,3 @@ Once deployed, WordPress can be accessed using the external IP of the LoadBalanc
  
 ```sh
 kubectl get svc
-'''
