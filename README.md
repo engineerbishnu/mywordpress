@@ -45,9 +45,9 @@ While deploying a stateful web app with MySQL, WordPress, and an Ingress on Kube
     kubectl apply -f wordpresswithdatabase-deployment.yaml
     ```
     After that, there is Lb give us external IP which is used as ip-domain naming while traffic and port forwarding with internal ports from external connections. Because pods IPs are not accessible from outside so we need ingress controller for communicate outside world and inside world.
-
+    
     - Copy the external IP and edit ingress host with that ip like this way:
-        ```sh
+    ```sh
     nano ingress.yaml
     # paste ip in host section here and save the file.
     ```
