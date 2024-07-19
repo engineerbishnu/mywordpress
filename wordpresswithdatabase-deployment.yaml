@@ -1,3 +1,4 @@
+## This file is used for LoadBalancer's IP accessible after deployments.
 apiVersion: apps/v1
 kind: Deployment
 metadata:
