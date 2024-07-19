@@ -3,8 +3,9 @@ kind: Ingress
 metadata:
   name: wordpress-ingress
 spec:
+  ingressClassName: nginx #write your IngressClassName here (do kubectl get ingressclass and copy your nginx ingress class name)
   rules:
-    - host: "172.18.0.2.nip.io"
+    - host: bishnu.com
       http:
         paths:
           - path: /
